@@ -81,7 +81,7 @@ sudo nano /var/www/html/index.html
      sudo chmod 644 /var/www/html/index.html
 ```
 - Check Your Website
-In your browser, go to the public IP address of your EC2 instance (e.g., http://<your-elastic-ip>) to confirm that your HTML page is being served.
+In your browser, go to the public IP address of your EC2 instance (e.g., http://your-elastic-ip) to confirm that your HTML page is being served.
 
 ### 4. Acquiring a Domain from No-IP
 
@@ -95,13 +95,13 @@ In your browser, go to the public IP address of your EC2 instance (e.g., http://
 #### Verify DNS Propagation:
 - Use the `dig` command to confirm:
 ```bash
-dig your-domain-name NS
+dig <your-domain-name> NS
 ```
 
 ### 5. Enabling HTTPS with Certbot
 
 #### Install Certbot:
-- Adde Certbot and Nginx plugins:
+- Add Certbot and Nginx plugins:
 ```bash
 sudo apt install certbot python3-certbot-nginx -y
 ```
@@ -137,8 +137,9 @@ This will show details of the installed certificate, including the domain name, 
 That's all folks! 🙂🎉
 
 ## Public Access  
-My landing page is publicly accessible via the custom subdomain:  
-`https://cloudupgigi.ddns.net` 
+My landing page is publicly accessible via the custom subdomain: 
+
+[https://cloudupgigi.ddns.net](https://cloudupgigi.ddns.net)
 
 ## Screenshots  
 Below is a screenshot of the deployed landing page viewed in a browser:  

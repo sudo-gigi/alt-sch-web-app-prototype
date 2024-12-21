@@ -6,7 +6,7 @@ This project demonstrates how to deploy a simple HTML-based landing page on an A
 ## Features  
 - A landing page with the project-overview, bio, tech journey, and goals.  
 - Hosted on an Nginx web server.
-- Custom subdomain linked through [No-IP](https://www.noip.com).   
+- Custom subdomain linked through <a href="https://www.noip.com" target="_blank">No-IP</a>.   
 - Secured with HTTPS using Certbot.  
 
 ## Deployment Instructions  
@@ -81,7 +81,7 @@ sudo nano /var/www/html/index.html
      sudo chmod 644 /var/www/html/index.html
 ```
 - Check Your Website
-In your browser, go to the public IP address of your EC2 instance (e.g., http://your-elastic-ip) to confirm that your HTML page is being served.
+In your browser, go to the public IP address of your EC2 instance (e.g., `http://your-elastic-ip`) to confirm that your HTML page is being served.
 
 ### 4. Acquiring a Domain from No-IP
 
@@ -139,7 +139,7 @@ That's all folks! 🙂🎉
 ## Public Access  
 My landing page is publicly accessible via the custom subdomain: 
 
-[https://cloudupgigi.ddns.net](https://cloudupgigi.ddns.net)
+<a href="https://cloudupgigi.ddns.net" target="_blank">https://cloudupgigi.ddns.net</a>
 
 ## Screenshots  
 Below is a screenshot of the deployed landing page viewed in a browser:  

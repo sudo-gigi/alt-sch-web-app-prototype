@@ -63,7 +63,7 @@ Once Nginx is up and running, you can access your server’s elastic IP in a bro
 
 #### Navigate to Nginx's Web Directory
 
-Now there are diffrent ways to get your HTML page on the server, however, since we are deploying a simple landing page, you can copy and paste your HTML content into a new file using a text editor like nano.
+Now there are different ways to get your HTML page on the server, however, since we are deploying a simple landing page, you can copy and paste your HTML content into a new file using a text editor like nano.
 
 Firstly, Nginx serves content from the `/var/www/html` directory. We'll place your HTML page in this directory.
 

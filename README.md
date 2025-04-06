@@ -44,8 +44,7 @@ Using the `.pem` key you can ssh into the instance, however, i connected to mine
 ```
 - Install Nginx:
 ```bash
-     sudo apt update
-     sudo apt upgrade -y
+     sudo apt update && sudo apt install nginx  
 ```
 - Start and enable Nginx to run at startup:
 ```bash
